@@ -1,11 +1,19 @@
 {
   "name": "serverless-pigeon",
   "version": "1.0.0",
+  "description": "A vercel cloud function project",
   "main": "index.js",
-  "repository": "https://github.com/TheWisePigeon/serverless-pigeon.git",
-  "author": "twpDiogenes <twisepigeon@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "vercel": "^27.3.7"
-  }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWisePigeon/serverless-pigeon.git"
+  },
+  "author": "TheWisePigeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheWisePigeon/serverless-pigeon/issues"
+  },
+  "homepage": "https://github.com/TheWisePigeon/serverless-pigeon#readme"
 }
