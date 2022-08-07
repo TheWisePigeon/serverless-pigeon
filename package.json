@@ -1,0 +1,11 @@
+{
+  "name": "serverless-pigeon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TheWisePigeon/serverless-pigeon.git",
+  "author": "twpDiogenes <twisepigeon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^27.3.7"
+  }
+}
