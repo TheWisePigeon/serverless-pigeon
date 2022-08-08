@@ -21,7 +21,7 @@ const allowCors = fn => async (req, res) => {
 async function handler(req, res) {
     const { newSub } = req.body
     subs.subs.addresses.push(newSub)
-    fs.writeFile('./api/subs.json', JSON.stringify(subs), function writeJSON(err) {
+    fs.writeFile('./api/subs.json', JSON.stringify(subs, null, 4), function writeJSON(err) {
         if (err) return console.log(err)
     });
     return res.json({
