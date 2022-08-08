@@ -7,5 +7,8 @@ export default function handler(req, res) {
     fs.writeFile('./api/subs.json', JSON.stringify(subs), function writeJSON(err) {
         if (err) return console.log(err)
     });
-    return res.send('200');
+    return res.json({
+        "subs": subs.subs.addresses,
+        "status": "success"
+    });
 }
